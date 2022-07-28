@@ -17,6 +17,6 @@ export default async function fetchImagesAPI(searchQuery, page) {
       if (response.status === 200) {
         return response.data;
       }
-      return Promise.reject(new Error('ошибка, не загружается!'));
+      return Promise.reject(new Error('Ошибка, не загружается!'));
     });
   }
