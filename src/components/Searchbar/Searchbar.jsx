@@ -24,7 +24,7 @@ export default class Searchbar extends Component {
       return;
     }
     this.props.onSubmit(searchQuery);
-    this.setState({ searchQuery: '' });
+    //this.setState({ searchQuery: '' });
   };
   handleInputChange = e => {
     this.setState({ searchQuery: e.currentTarget.value.toLowerCase().trim() });
