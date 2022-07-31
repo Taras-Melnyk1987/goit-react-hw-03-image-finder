@@ -11,8 +11,8 @@ const ImageGalleryItem = ({ alt, src, onClick }) => {
 };
 
 ImageGalleryItem.propTypes = {
-  alt: PropTypes.string,
-  src: PropTypes.string,
+  alt: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
 };
 
